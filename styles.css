@@ -1,0 +1,305 @@
+* {
+      
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+}
+
+header {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8));
+      background-size: cover;
+      background: rgba(0, 0, 0, .4);
+}
+
+#background-img {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      border-bottom: 8px solid #222;
+}
+
+nav {
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 84px;
+}
+
+#logo {     
+      height: 2.25rem;
+      width: 8.375rem;
+}
+
+select {
+      appearance: none;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      width: 93px;
+      height: 36px;
+      text-align: center;
+      margin-right: 2rem;
+      font-size: 14px;
+      border-radius: 4px;
+      line-height: 1.3em;
+}
+
+option {
+      background-color: black;
+      color: white;
+}
+
+button {
+      width: 84px;
+      height: 36px;
+      background-color: red;
+      color: white;
+      border: red;
+      border-radius: 3px;
+      font-size: 16px;
+}
+
+#nav-wrapper {
+      padding-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 3.5rem;
+}
+
+#header-main {
+      margin-top: 20vh;
+      display: flex;
+      flex-direction: column;
+      margin-left: 200px;
+      margin-right: 200px;
+}
+
+h1 {
+      color: white;
+      text-align: center;
+      font-size: 64px;
+}
+
+#watch-anywhere {
+      color: white;
+      text-align: center;
+      font-size: 26px;
+      margin-top: 16px;
+}
+
+#ready {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+}
+
+#form {
+      width: 750px;
+      height: 100px;
+      display: flex;
+      align-self: center;
+}
+
+label {
+      color: grey;
+}
+
+input {
+      width: 500px;
+      height: 10px;
+}
+
+
+#started {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      text-align: center;
+      width: 350px;
+      height: 58px;
+}
+
+i {
+      padding-left: 10px;
+}
+
+.features {
+      margin: 0 auto;
+      display: flex;
+      padding: 70px 45px;
+      text-align: left;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      border-bottom: 8px solid #222;
+}
+
+.features-text {
+      color: white;
+      padding-right: 48px;
+}
+
+h2 {
+      font-size: 50px;
+}
+.features-text > p{
+      font-size: 26px;
+}
+
+.animations {
+      display: flex;
+}
+
+#tv {
+      position: relative;
+      z-index: 1;
+}
+
+#tv-vid {
+      position: absolute;
+      margin-top: 90px;
+      margin-left: 70px;
+}
+
+#mobile {  
+      position: relative;
+      z-index: 1;
+}
+
+.download {
+      border: 2px solid hsla(0, 0%, 100%, .25);
+      border-radius: 0.75em;
+      padding: 8px 12px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 2;
+      position: absolute;
+      width: 330px;
+      height: 104px;
+      background-color: black;
+      margin-top: -150px;
+      margin-left: 155px;
+}
+
+#downloading {
+      padding-top: 5px;
+}
+
+#stranger {
+      padding-right: 12px;
+      height: 5em;
+}
+
+h3 {
+      color: white;
+      font-size: 16px;
+}
+
+h4 {
+      color: #0071eb;
+      font-size: 0.9em;
+}
+
+#devices {
+            position: relative;
+            z-index: 1;
+}
+
+#our-story {
+      position: absolute;
+      margin-left: 120px;
+      margin-top: 50px;
+}
+
+.FAQ {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: black;
+      padding: 70px 45px;
+      color: white;
+            border-bottom: 8px solid #222;      
+}
+
+.accordion {
+      padding-top: 52px;
+      padding-bottom: 52px;
+      width: 815px;
+      margin: 0 auto;
+      background-color: black;
+}
+
+.accordion-button:not(.collapsed) {
+      background-color: #303030;
+      color: white;
+}
+
+.accordion-button {
+      background-color: #303030;
+            color: white;
+            height: 75px;
+            font-size: 26px;
+}
+
+.accordion-body {
+      background-color: #303030;
+            text-align: left;
+            font-size: 26px
+}
+
+.FAQ > button {
+      background-color: black;
+}
+
+#bottom-sign-up {
+      display: flex;
+      flex-direction: column;
+}
+
+footer {
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0 auto;
+      padding: 70px 45px 0;
+      background: black;
+      color: #737373;
+      padding-bottom: 0;
+      vertical-align: top;
+}
+
+#footer-text {
+      width: 900px;
+      height: 291px;
+      margin: 0 auto;
+}
+
+#footer-grid {
+      font-size: 13px;
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 237px 237px 237px 237px;
+      grid-template-rows: 16px 16px 16px 16px;
+      grid-column-gap: 12px;
+      grid-row-gap: 16px ;
+}
+
+#Netflix-india {
+      margin-top: 30px;
+      font-size: 13px;
+}
+
+a {
+      text-decoration: none;
+      color: #737373;
+}
